@@ -5,7 +5,11 @@
 <details><summary>Postup...</summary>
 
 1. <br />![](img/github-key_010_cmd.png)
-1. <br />![](img/github-key_020_ssh-keygen.png)
+1. Spusťte `ssh-keygen` a nechte si vygenerovat klíče:
+<br />![](img/github-key_020_ssh-keygen.png)
+    1. Pokud už jste někdy klíč vytvářeli, můžete použít ten původní.
+    1. Cestu ke klíči ponechte výchozí.
+    1. Heslo doporučujeme nezadávat, protože byste ho museli zadávat při každém commitu.
 <!--1. <br />![](img/github-key_025_xxx_github-ij_320_c-users.png)-->
 1. <br />![](img/github-key_030_ssh-dir.png)
 1. <br />![](img/github-key_040_ssh-content.png)
