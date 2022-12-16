@@ -5,6 +5,7 @@
 <details><summary>Postup...</summary>
 
 1. <br />![](img/github-key_010_cmd.png)
+1. Nastavte si uživatelské jméno pro zápis autora změn.<br />Použijte uživatelské jméno a e-mail vašeho účtu na GitHubu:<br />![](img/github-key_015_git-config.png)
 1. Spusťte `ssh-keygen` a nechte si vygenerovat klíče:
 <br />![](img/github-key_020_ssh-keygen.png)
     1. Pokud už jste někdy klíč vytvářeli, můžete použít ten původní.
@@ -22,7 +23,7 @@
 
 </details>
 
-## Práce s GitHubem v IntelliJ IDEA
+## Vytvoření projektu IntelliJ a odeslání na GitHub
 
 1. <br />![](img/github-ij_010_new-project.png)
 1. <br />![](img/github-ij_020_create-git-repo.png)
@@ -31,6 +32,8 @@
 1. <br />![](img/github-ij_050_no-settings.png)
 1. <br />![](img/github-ij_060_gitignore.png)
 1. <br />![](img/github-ij_065_gitignore-input.png)
+
+## Odeslání změn na GitHub
 1. <br />![](img/github-ij_070_commit.png)
 1. <br />![](img/github-ij_080_history.png)
 1. <br />![](img/github-ij_090_push.png)
@@ -38,5 +41,7 @@
 1. <br />![](img/github-ij_100_repo.png)
 1. <br />![](img/github-ij_110_repo-content.png)
 1. <br />![](img/github-ij_500_copy-ssh-link.png)
+
+## Stažení existujícího projektu z GitHubu do IntelliJ
 1. <br />![](img/github-ij_510_get-from-vcs.png)
 1. <br />![](img/github-ij_520_clone.png)
