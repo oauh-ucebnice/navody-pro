@@ -24,6 +24,7 @@
 </details>
 
 ## Vytvoření projektu IntelliJ a odeslání na GitHub
+<details><summary>Postup...</summary>
 
 1. <br />![](img/github-ij_010_new-project.png)
 1. <br />![](img/github-ij_020_create-git-repo.png)
@@ -33,7 +34,12 @@
 1. <br />![](img/github-ij_060_gitignore.png)
 1. <br />![](img/github-ij_065_gitignore-input.png)
 
+</details>
+
 ## Odeslání změn na GitHub
+
+<details><summary>Postup...</summary>
+
 1. <br />![](img/github-ij_070_commit.png)
 1. <br />![](img/github-ij_080_history.png)
 1. <br />![](img/github-ij_090_push.png)
@@ -42,6 +48,13 @@
 1. <br />![](img/github-ij_110_repo-content.png)
 1. <br />![](img/github-ij_500_copy-ssh-link.png)
 
+</details>
+
 ## Stažení existujícího projektu z GitHubu do IntelliJ
+
+<details><summary>Postup...</summary>
+
 1. <br />![](img/github-ij_510_get-from-vcs.png)
 1. <br />![](img/github-ij_520_clone.png)
+
+</details>
