@@ -1,5 +1,18 @@
 # Použití Gitu a GitHubu s IntelliJ IDEA
 
+## Vytvoření účtu na GitHubu (pokud již nemáte)
+
+Pro vytvoření účtu použijte [návod na OAUH učebnice](https://github.com/oauh-ucebnice/github-registrace).
+
+
+## Instalace Gitu (pokud již nemáte)
+
+Ve škole tento krok není třeba, protože je Git již nainstalován.
+
+<details><summary>Postup...</summary>
+</details>
+
+
 ## Vložení klíče na GitHub
 
 <details><summary>Postup...</summary>
