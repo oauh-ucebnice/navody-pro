@@ -67,7 +67,7 @@ Ve škole tento krok není třeba, protože je Git již nainstalován.
     <br />![](img/github-key_015_git-config.png)
 1. Spusťte `ssh-keygen` a nechte si vygenerovat klíče:
     ```bash
-    ssh-keyget -t rsa
+    ssh-keygen -t rsa
     ```
     <br />![](img/github-key_020_ssh-keygen.png)
     1. Pokud už jste někdy klíč vytvářeli, můžete použít ten původní.
