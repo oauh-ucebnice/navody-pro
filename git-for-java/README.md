@@ -9,7 +9,48 @@ Pro vytvoření účtu použijte [návod na OAUH učebnice](https://github.com/o
 
 Ve škole tento krok není třeba, protože je Git již nainstalován.
 
-<details><summary>Postup...</summary>
+   <details><summary>Postup...</summary>
+1. Git stáhnete ze stránek: [git-scm.com](https://git-scm.com/download/).
+
+1. Při instalaci je třeba potvrdit větší množství voleb, ale většinu z&nbsp;nich lze ponechat ve výchozím nastavení. Změňte si pouze výchozí editor pro úpravu commit message.
+
+   <details><summary>První část postupu (zvolte sami či ponechte výchozí)...</summary>
+
+    1. <br />![](img/git-install_010_download.png)
+    1. <br />![](img/git-install_020_64bit.png)
+    1. <br />![](img/git-install_030_licence.png)
+    1. <br />![](img/git-install_040_folder.png)
+    1. <br />![](img/git-install_050_components.png)
+    1. <br />![](img/git-install_060_menu.png)
+
+   </details>
+
+
+1. Zvolte textový editor pro instalaci<br />
+   - Zvolte si editor podle své volby. Můžete například použít výchozí editor pro Windows: Notepad
+   > Pokud jste na editor _vim_ zvyklí, samozřejmě si můžete ponechat _vim_. Pro běžného uživatele počítače bez dalších zkušeností ale _vim_ není příliš intuitivní na ovládání!
+
+   - ![](img/git-install_070_no-vim.png)<br />![](img/git-install_075_use-notepad.png).
+
+1. Zbytek instalace už nejspíš můžete ponechat beze změny (volby se mohou lišit)
+
+   <details><summary>Druhá část postupu (zvolte sami či ponechte výchozí)...</summary>
+
+    1. <br />![](img/git-install_080_main-branch.png)
+    1. <br />![](img/git-install_090_both-git-bash.png)
+    1. <br />![](img/git-install_100_bundled-ssh.png)
+    1. <br />![](img/git-install_110_openssh.png)
+    1. <br />![](img/git-install_120_crlf.png)
+    1. <br />![](img/git-install_130_tty.png)
+    1. <br />![](img/git-install_140_fast-forward.png)
+    1. <br />![](img/git-install_150_credential-manager.png)
+    1. <br />![](img/git-install_160_extra.png)
+    1. <br />![](img/git-install_170_experimental.png)
+    1. <br />![](img/git-install_180_install.png)
+
+
+   </details>
+
 </details>
 
 
