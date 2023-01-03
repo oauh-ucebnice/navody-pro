@@ -61,8 +61,8 @@ Ve škole tento krok není třeba, protože je Git již nainstalován.
 1. <br />![](img/github-key_010_cmd.png)
 1. Nastavte si uživatelské jméno pro zápis autora změn.<br />Použijte uživatelské jméno a e-mail vašeho účtu na GitHubu:
     ```bash
-    git config --global user.email="vas-email@domena.cz"
-    git config --global user.name="Uživatelské jméno na GitHubu"
+    git config --global user.email "vas-email@domena.cz"
+    git config --global user.name "Uživatelské jméno na GitHubu"
     ```
     <br />![](img/github-key_015_git-config.png)
 1. Spusťte `ssh-keygen` a nechte si vygenerovat klíče:
