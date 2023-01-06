@@ -107,7 +107,6 @@ Ve škole tento krok není třeba, protože je Git již nainstalován.
 1. <br />![](img/github-ij_095_push-list.png)
 1. <br />![](img/github-ij_100_repo.png)
 1. <br />![](img/github-ij_110_repo-content.png)
-1. <br />![](img/github-ij_500_copy-ssh-link.png)
 
 </details>
 
@@ -115,7 +114,31 @@ Ve škole tento krok není třeba, protože je Git již nainstalován.
 
 <details><summary>Postup...</summary>
 
-1. <br />![](img/github-ij_510_get-from-vcs.png)
+1. Zkopírujte si adresu repozitáře:<br />![](img/github-ij_500_copy-ssh-link.png)
+1. Zadejte adresu do úvodního okna po spuštění IntelliJ:<br />
+   Pokud máte otevřen jiný projekt, zavřete ho.<br />![](img/github-ij_510_get-from-vcs.png)
 1. <br />![](img/github-ij_520_clone.png)
+
+</details>
+
+## Stažení nových commitů ze vzdáleného rezpozitáře
+
+<details><summary>Postup...</summary>
+
+V&nbsp;době, kdy s&nbsp;repozitářem nepracujete, mohlo dojít k&nbsp;nahrání nových commitů do vzdáleného repozitáře.
+Mohlo to nastat tak, že:
+- Někdo z&nbsp;vašich kolegů nahrál do vzdáleného repozitáře své úpravy.
+- Vy jste provedli úpravy projektu na jiném počítači a nahráli změny do repozitáře.
+
+Před začátkem další práce je třeba tyto commity stáhnout tak, abyste měli k&nbsp;dispozici aktuální verzi kódu (pozor, toto se neprovádí automaticky).
+
+1. Otevřete si projekt v&nbsp;IntelliJ a stiskněte „modrou šipku dolů“ („Update project“):<br />
+   ![Klikněte na modrou šipku „Update project...“](img/github-ij_600_pull.png)
+1. Pokud jste provedli nové commity a ve vzdáleném repozitáři vznikly také nové commity, můžete je zařadit do historie dvojím způsobem:
+   1. _merge_ &hellip; commity budou řazeny časově, můžou být tedy promíchány commity z&nbsp;lokálního repozitáře a mezi nimi commity ze vzdáleného. (Hodí se, pokud jste prováděli navzájem nezávislé commity a chcete v&nbsp;historii zachovat časovou posloupnost akcí.)
+   2. _rebase_ &hellip; v&nbsp;historii budou nejprve všechny commity ze vzdáleného repozitáře a pak teprve všechny nové commity z&nbsp;lokálního repozitáře. (Hodí se, pokud jste dělali lokální více commitů, které ale dohromady tvoří jednu akci.)
+   ![Vyberte strategii řazení nových commitů „merge“ nebo „rebase“...](img/github-ij_610_merge-rebase.png)
+1. Pokud některé vzdálené commity upravují stejné řádky, které jste mezitím měnil(a) i vy, dojde ke _kolizi_ a IntelliJ zobrazí vedle sebe kód ze vzdáleného repozitáře a z&nbsp;vašeho lokálního repozitáře. Musíte pak rozhodnout, jak má výsledek vypadat.
+1. Nyní budete mít v&nbsp;historii všechny commity z&nbsp;lokálního i vzdáleného repozitáře a aktuální kód.
 
 </details>
