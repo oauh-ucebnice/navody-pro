@@ -137,6 +137,7 @@ Před začátkem další práce je třeba tyto commity stáhnout tak, abyste mě
 1. Pokud jste provedli nové commity a ve vzdáleném repozitáři vznikly také nové commity, můžete je zařadit do historie dvojím způsobem:
    1. _merge_ &hellip; commity budou řazeny časově, můžou být tedy promíchány commity z&nbsp;lokálního repozitáře a mezi nimi commity ze vzdáleného. (Hodí se, pokud jste prováděli navzájem nezávislé commity a chcete v&nbsp;historii zachovat časovou posloupnost akcí.)
    2. _rebase_ &hellip; v&nbsp;historii budou nejprve všechny commity ze vzdáleného repozitáře a pak teprve všechny nové commity z&nbsp;lokálního repozitáře. (Hodí se, pokud jste dělali lokální více commitů, které ale dohromady tvoří jednu akci.)
+   
    ![Vyberte strategii řazení nových commitů „merge“ nebo „rebase“...](img/github-ij_610_merge-rebase.png)
 1. Pokud některé vzdálené commity upravují stejné řádky, které jste mezitím měnil(a) i vy, dojde ke _kolizi_ a IntelliJ zobrazí vedle sebe kód ze vzdáleného repozitáře a z&nbsp;vašeho lokálního repozitáře. Musíte pak rozhodnout, jak má výsledek vypadat.
 1. Nyní budete mít v&nbsp;historii všechny commity z&nbsp;lokálního i vzdáleného repozitáře a aktuální kód.
